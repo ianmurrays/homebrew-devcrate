@@ -4,8 +4,8 @@
 class Devcrate < Formula
   desc "Run dev Environments on cloud VMs that stop when idle"
   homepage "https://github.com/ianmurrays/devcrate"
-  url "https://github.com/ianmurrays/devcrate/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "39c5ba42b9bb30336d482619880ee41802e1b2714def45e32966a058c39a3254"
+  url "https://github.com/ianmurrays/devcrate/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "070167cb7ea995553af2ca0f6331e9ec4841783e7385ad18ea24c25a031fc4e6"
   head "https://github.com/ianmurrays/devcrate.git", branch: "main"
 
   depends_on "go" => :build
